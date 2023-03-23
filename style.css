@@ -15,6 +15,7 @@ a, .heroText2 {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+    font-weight: lighter;
 }
 
 .headerText {
@@ -33,28 +34,29 @@ a, .heroText2 {
     color: white;
 }
 
-.button {
-    color: #3882F6;
+.quoteSection {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
 }
 
-.button:hover {
-    background-color: #3882F6
+.quoteSection span {
+    font-weight: bold;
+    text-align: right;
+    size: 20px;
 }
-
 .quoteText {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
-}
-
-.quoteSection {
-    background-color: #E5E7EB;
+    text-align: left;
 }
 
 .all {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 }
 
 .header {
@@ -66,17 +68,26 @@ a, .heroText2 {
 .menu {
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     display: flex;
     justify-content: space-between;
 }
 
-ul {
+.menu span {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.menu ul {
     margin: 0px;
     padding: 0px;
     list-style-type: none;
     display: flex;
+}
+
+.menu li {
+    padding: 5px;
 }
 
 .hero {
@@ -85,6 +96,7 @@ ul {
 }
 
 .hero button {
+    margin-top: 5px;
     border-radius: 5px;
     padding: 5px;
     padding-left: 20px;
@@ -126,9 +138,37 @@ ul {
 }
 
 .callAction {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:#3882F6;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
+}
+
+.callAction p {
+    text-align: left;
+}
+
+.callAction span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action {
+}
+
+.callAction button {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #3882F6;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .paras .imgBorder {
@@ -142,6 +182,7 @@ ul {
 .hero, .info, .quoteSection, .callAction, .footer {
     margin-top: 30px;
     padding-bottom: 30px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
