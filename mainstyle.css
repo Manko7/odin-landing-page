@@ -1,0 +1,227 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.heroText {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+a, .heroText2 {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    font-family: 'Roboto Thin', sans-serif;
+}
+
+.headerText {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.infoText {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.darkBG {
+    background-color: #1f2937;
+    color: white;
+}
+
+.quoteSection {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteSection span {
+    font-weight: bold;
+    text-align: right;
+    size: 20px;
+}
+.quoteText {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    text-align: left;
+    font-family: 'Roboto Thin', sans-serif;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menulogo {
+    display: flex;
+    align-items: center;
+}
+
+.menulogo span {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.menulogo .logo {
+    max-width: 50px;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    padding: 5px;
+}
+
+.hero {
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+    gap: 50px;
+    align-items: center;
+}
+
+.hero button {
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: #3882F6;
+    font-weight: bold;
+    border: none;
+}
+
+.herotexts, .heroText, .heroText2 {
+    text-align: left;
+}
+
+.herotexts {
+    flex-wrap: wrap;
+}
+
+
+.hero img {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 130px;
+    padding-right: 130px
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.paras {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+
+.callAction {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:#3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.callAction p {
+    text-align: left;
+}
+
+.callAction span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.callAction button {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #3882F6;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.parabox {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parabox img {
+    border:5px #3882F6 solid;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.parabox p {
+    margin-top: 10px;
+}
+
+.hero, .info, .quoteSection, .callAction {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.quoteSection p, .quoteSection span {
+    margin-left: 100px;
+    margin-right: 100px;
+}
